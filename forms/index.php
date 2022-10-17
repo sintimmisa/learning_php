@@ -8,5 +8,15 @@
 </head>
 <body>
     <h2>Forms</h2>
+    <form method="POST" action="user_data.php">
+        <label for="name">
+            Name: <input type="text" name="name">
+        </label><br>
+        <label for="name">
+            Email: <input type="email" name="email">
+        </label><br><br>
+        <button type="submit">Submit</button>
+    </form>
+   
 </body>
 </html>
